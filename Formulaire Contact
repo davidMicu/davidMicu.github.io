@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Formulaire de Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="https://www.shutterstock.com/image-vector/spy-agent-hacker-anonymous-white-260nw-1722014434.jpg" width="400px"/></p>
+<form class="contact-form" action="#" method="POST">
+  <h2>Contactez-nous</h2>
+  <label for="name">Nom</label>
+  <input type="text" id="name" name="name" placeholder="Votre nom" required />
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="Votre email" required />
+  <label for="subject">Sujet</label>
+  <input type="text" id="subject" name="subject" placeholder="Sujet du message" required />
+  <label for="message">Message</label>
+  <textarea id="message" name="message" placeholder="Votre message ici..." required></textarea>
+  <button type="submit">Envoyer</button>
+</form>
+</body>
+</html>
