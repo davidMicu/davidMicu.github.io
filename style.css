@@ -1,55 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #e40909;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: rgb(0, 128, 64);
   }
-  .contact-form {
-    background: white;
-    padding: 25px 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    width: 100%;
-    max-width: 400px;
+  
+  h1 {
+    color: rgb(202, 198, 221);
+    text-align: center;
   }
-  .contact-form h2 {
-    margin-bottom: 20px;
-    color: #333;
+  h3 {  
+    font-family: verdana;
+    font-size: 20px;
   }
-  .contact-form label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    color: #555;
+  p {
+    font-family: verdana;
+    font-size: 20px;
   }
-  .contact-form input[type="text"],
-  .contact-form input[type="email"],
-  .contact-form textarea {
-    width: 100%;
-    padding: 9px 12px;
-    margin-bottom: 15px;
-    border: 1px solid #13e748;
-    border-radius: 5px;
-    font-size: 14px;
-    box-sizing: border-box;
-    resize: vertical;
-  }
-  .contact-form textarea {
-    min-height: 100px;
-  }
-  .contact-form button {
-    width: 100%;
-    padding: 12px;
-    background-color: #0066cc;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .contact-form button:hover {
-    background-color: #004999;
-  }
+  img{
+    width: 15%;
+    position: absolute;
+    right: 20px;
+  }S
+    #monParagraphe {
+      font-size: 18px;
+      color: black;
+      background-color: white;
+      padding: 10px;
+      border: 1px solid #eee4ec;
+    }
+    #horloge {
+      position: fixed;       /* Position fixe par rapport à la fenêtre */
+      top: 10px;             /* 10 pixels depuis le haut */
+      left: 10px;            /* 10 pixels depuis la gauche */
+      font-size: 40px;       /* Taille du texte */
+      color: #333;           /* Couleur du texte */
+      background-color: #f0f0f0; /* Fond clair pour visibilité (optionnel) */
+      padding: 5px 10px;     /* Espacement intérieur (optionnel) */
+      border-radius: 5px;    /* Coins arrondis (optionnel) */
+      z-index: 1000;         /* Pour que l'élément reste au-dessus */
+    }
+ 
